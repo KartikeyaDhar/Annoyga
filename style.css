@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  color: #000;
+  background: #fff;
+}
+
+nav {
+  position: fixed, top;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+
+nav .menu {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.menu .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.menu ul {
+  display: inline-flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 7px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+  background: #fff;
+  color: black;
+}
+
+.img {
+  background: url(https://t3.ftcdn.net/jpg/03/57/88/88/360_F_357888819_XvattGqyaKLQtZ9JfW1QVTRVTaLkItug.jpg)no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.img::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.center {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.center .title {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.center .sub_title {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.center .btns {
+  margin-top: 20px;
+}
+
+.center .btns button {
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.center .btns button:first-child {
+  color: #fff;
+  background: none;
+}
+
+.btns button:first-child:hover {
+  background: white;
+  color: black;
+}
+
+.center .btns button:last-child {
+  background: white;
+  color: black;
+}
+
+#playyy {
+
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: 50px;
+  margin: 0 px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.guessimg {
+  background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.saymedia-content.com%2F.image%2Ft_share%2FMTc4NzM1OTc4MzE0MzQzOTM1%2Fhow-to-create-cool-website-backgrounds-the-ultimate-guide.png&imgrefurl=https%3A%2F%2Fturbofuture.com%2Finternet%2FHow-To-Create-Cool-Website-Backgrounds-The-Ultimate-Guide&tbnid=B0FWE4iqPdvlIM&vet=12ahUKEwiO8dLznu77AhX7i9gFHdoKAScQMygWegUIARCPAg..i&docid=d5RC-kuuuHvHuM&w=1200&h=781&q=background%20for%20website&ved=2ahUKEwiO8dLznu77AhX7i9gFHdoKAScQMygWegUIARCPAg);
+}
+
+.head1 {
+  font-size: 80px;
+}
+
+.head2 {
+  font-size: 40px;
+}
+
+.post-image1 {
+  margin: 20px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  float: inline-start;
+  width: 25%;
+}
+
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 100%;
+}
+
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  align-items: start;
+  min-height: 100vh;
+} */
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgb(33, 33, 33, 0.07);
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
